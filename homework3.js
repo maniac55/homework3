@@ -18,7 +18,7 @@ const example = function(str1, str2, str3) {
 	const example = str1.length > str2.length ? str1 : str2;
 	return example.length > str3.length ? example : str3;
 };
-console.log(example('hi', 'hello', 'hellooo')) //just an example, which console will log hellooo.
+console.log(example('hi', 'hello', 'hellooo')); //just an example, which console will log hellooo.
 
 const nums = function(n1,n2) {
 	if (n1 === n2) return 0;
